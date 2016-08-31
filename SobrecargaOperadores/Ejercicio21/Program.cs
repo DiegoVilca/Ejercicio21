@@ -51,12 +51,12 @@ namespace NamespaceProgram
             //Incremento dolar
 
             resultadoDolar = unDolar++;
-            Console.WriteLine("\nValor Dolar: {0}\n\nIncremento Dolar: {1}", unDolar.cantidad, resultadoDolar.cantidad);
+            Console.WriteLine("\nIncremento Dolar: {1}", unDolar.cantidad, resultadoDolar.cantidad);
 
             //Decremento dolar
 
             resultadoDolar = unDolar--;
-            Console.WriteLine("\nValor dolar: {0}\n\nDecremento Dolar: {1}", unDolar.cantidad, resultadoDolar.cantidad);
+            Console.WriteLine("\nDecremento Dolar: {1}", unDolar.cantidad, resultadoDolar.cantidad);
             
             //Conversion euro a dolar
 
